@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body> 
+     
+    <link rel="stylesheet" href="./index.css">
+    <center>
+        <h1>Library System</h1>
+    </center>
+   <div id="Anil">
+    <div id="hi">
+        <form><b>Title:</b></form>
+        <input type="text" id="title" style="width: 1000px;"> <br> <br>
+    </div>
+
+    <div id="hello">
+        <form><b>Author:</b></form>
+        <input type="text" id="Author" style="width: 1000px;"> <br> <br>
+    </div>
+
+    <div id="hey">
+        <form><b>Publisher:</b></form>
+        <input type="text" id="publisher"  style="width: 1000px;"> <br> <br>
+
+    </div>
+
+    <div id="aa">
+        <form><b>International Standard Book Number:</b></form>
+        <input type="text" id="isbn" style="width: 1000px;"> <br> <br>
+
+    </div>
+
+    <div id="bb">
+        <form><b>Number Of Copies:</b></form>
+        <input type="text" id="copies" style="width: 1000px;"> <br> <br>
+
+    </div>
+
+    <div id="cc">
+        <button  onclick="addBook()">Add Book</button>
+        <button onclick="removeBook()">Remove Book</button>
+        <!-- <button onclick="alert('Enter the ISBN of the book to remove')">Remove Book</button> -->
+
+    </div>
+    <hr> <br>
+
+    <div id="dd">
+        <input type="text" id="searchInput" placeholder="Search by title, author, or ISBN...">
+<button onclick="searchBooks()">Search</button> <br> <br>
+
+    </div>
+    <table id="table">
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Publisher</th>
+            <th>ISBN</th>
+            <th>Copies</th>
+        </tr>
+        
+    
+    </table>
+
+   </div>
+
+   
+    
+
+    <script src="./index.js"></script>
+</body>
+    
+
+   

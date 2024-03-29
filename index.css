@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://images2.alphacoders.com/104/1042582.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hi{
+    margin-left: 300px;
+    color: red
+}
+#hello{
+    margin-left: 300px;
+    color: red
+}
+#hey{
+    margin-left: 300px;
+    color: red
+}
+#aa{
+    margin-left: 300px;
+    color: red
+}
+#bb{
+    margin-left: 300px;
+    color: red
+}
+#cc{
+    margin-left: 300px;
+}
+#dd{
+     margin-left: 300px;
+    #searchInput {
+    width: 300px;
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  #searchButton {
+    padding: 5px;
+  }
+  
+
+}
+table{
+    border: 2px solid black;
+    margin-left: 300px;
+    width: 1000px;
+}
+h1{
+    color: darkorange;
+}
+button:hover{
+    background-color: green;
+}
+    
+td{
+    text-align: center;
+}
+
+#Anil{
+    overflow: auto;
+}
+@media screen and (min-width:480px) {
+    #hi{
+        width: 200px;
+    }
+    #hello{
+        width: 200px;
+    }
+    #hey{
+        width:200px
+    }
+    #aa{
+        width: 200px;
+    }
+    #bb{
+        width: 200px;
+    }
+    #cc{
+        width: 200px;
+    }
+    #dd{
+        width: 200px;
+    }
+    #searchButton{
+        width: 200px;
+    }
+    
+}
