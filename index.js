@@ -1,4 +1,5 @@
 // Mock data for the library
+
 let books = [];
 
 // Function to add a book to the library and the table

@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://images2.alphacoders.com/104/1042582.jpg);
+    background-image: url(https://gmvk.co.in/images/library-home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -44,6 +44,7 @@ table{
     border: 2px solid black;
     margin-left: 300px;
     width: 1000px;
+    background-color: aqua;
 }
 h1{
     color: darkorange;
